@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51D3D5428AC378000C01B1A /* NavigationBarWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */; };
+		F54A271428983D2100586CE8 /* PayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A271328983D2100586CE8 /* PayRowView.swift */; };
+		F5858E9D28A6DC9800418201 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5858E9C28A6DC9800418201 /* TabBarIcon.swift */; };
+		F5858EA028A76E6900418201 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = F5858E9F28A76E6900418201 /* BottomSheet */; };
+		F5858EA228A78CE700418201 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5858EA128A78CE700418201 /* TabBarView.swift */; };
+		F5858EA528A7908800418201 /* AddPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5858EA428A7908700418201 /* AddPayView.swift */; };
 		F586BC3C28907B4600756D6C /* money_tell_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586BC3B28907B4600756D6C /* money_tell_iosApp.swift */; };
 		F586BC3E28907B4600756D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586BC3D28907B4600756D6C /* ContentView.swift */; };
 		F586BC4028907B4A00756D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F586BC3F28907B4A00756D6C /* Assets.xcassets */; };
 		F586BC4328907B4A00756D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F586BC4228907B4A00756D6C /* Preview Assets.xcassets */; };
+		F5DFE809289591DE00C66520 /* PaysTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFE808289591DE00C66520 /* PaysTabView.swift */; };
+		F5DFE80D289593D100C66520 /* PayAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFE80C289593D100C66520 /* PayAPI.swift */; };
+		F5FC33D8289AE45600481476 /* PagingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FC33D7289AE45600481476 /* PagingData.swift */; };
+		F5FC33DD289AE7EA00481476 /* PaysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FC33DC289AE7EA00481476 /* PaysViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapperView.swift; sourceTree = "<group>"; };
+		F54A271328983D2100586CE8 /* PayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRowView.swift; sourceTree = "<group>"; };
+		F5858E9C28A6DC9800418201 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		F5858EA128A78CE700418201 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F5858EA428A7908700418201 /* AddPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayView.swift; sourceTree = "<group>"; };
 		F586BC3828907B4600756D6C /* money-tell-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "money-tell-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F586BC3B28907B4600756D6C /* money_tell_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = money_tell_iosApp.swift; sourceTree = "<group>"; };
 		F586BC3D28907B4600756D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F586BC3F28907B4A00756D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F586BC4228907B4A00756D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5DFE808289591DE00C66520 /* PaysTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaysTabView.swift; sourceTree = "<group>"; };
+		F5DFE80C289593D100C66520 /* PayAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAPI.swift; sourceTree = "<group>"; };
+		F5FC33D7289AE45600481476 /* PagingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingData.swift; sourceTree = "<group>"; };
+		F5FC33DC289AE7EA00481476 /* PaysViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaysViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5858EA028A76E6900418201 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +71,14 @@
 		F586BC3A28907B4600756D6C /* money-tell-ios */ = {
 			isa = PBXGroup;
 			children = (
-				F586BC3B28907B4600756D6C /* money_tell_iosApp.swift */,
-				F586BC3D28907B4600756D6C /* ContentView.swift */,
-				F586BC3F28907B4A00756D6C /* Assets.xcassets */,
+				F5FC33DB289AE7CD00481476 /* ViewModel */,
+				F5FC33D6289AE43D00481476 /* Models */,
+				F5FC33DA289AE6E100481476 /* Views */,
+				F5FC33D9289AE64600481476 /* Api */,
 				F586BC4128907B4A00756D6C /* Preview Content */,
+				F586BC3D28907B4600756D6C /* ContentView.swift */,
+				F586BC3B28907B4600756D6C /* money_tell_iosApp.swift */,
+				F586BC3F28907B4A00756D6C /* Assets.xcassets */,
 			);
 			path = "money-tell-ios";
 			sourceTree = "<group>";
@@ -65,6 +89,43 @@
 				F586BC4228907B4A00756D6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5FC33D6289AE43D00481476 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5FC33D7289AE45600481476 /* PagingData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5FC33D9289AE64600481476 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F5DFE80C289593D100C66520 /* PayAPI.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F5FC33DA289AE6E100481476 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F54A271328983D2100586CE8 /* PayRowView.swift */,
+				F5DFE808289591DE00C66520 /* PaysTabView.swift */,
+				F5858E9C28A6DC9800418201 /* TabBarIcon.swift */,
+				F5858EA128A78CE700418201 /* TabBarView.swift */,
+				F5858EA428A7908700418201 /* AddPayView.swift */,
+				F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5FC33DB289AE7CD00481476 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5FC33DC289AE7EA00481476 /* PaysViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = "money-tell-ios";
+			packageProductDependencies = (
+				F5858E9F28A76E6900418201 /* BottomSheet */,
+			);
 			productName = "money-tell-ios";
 			productReference = F586BC3828907B4600756D6C /* money-tell-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = F586BC2F28907B4600756D6C;
+			packageReferences = (
+				F5858E9E28A76E6900418201 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = F586BC3928907B4600756D6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5858E9D28A6DC9800418201 /* TabBarIcon.swift in Sources */,
+				F5858EA228A78CE700418201 /* TabBarView.swift in Sources */,
 				F586BC3E28907B4600756D6C /* ContentView.swift in Sources */,
 				F586BC3C28907B4600756D6C /* money_tell_iosApp.swift in Sources */,
+				F5FC33D8289AE45600481476 /* PagingData.swift in Sources */,
+				F5DFE80D289593D100C66520 /* PayAPI.swift in Sources */,
+				F51D3D5428AC378000C01B1A /* NavigationBarWrapperView.swift in Sources */,
+				F54A271428983D2100586CE8 /* PayRowView.swift in Sources */,
+				F5DFE809289591DE00C66520 /* PaysTabView.swift in Sources */,
+				F5FC33DD289AE7EA00481476 /* PaysViewModel.swift in Sources */,
+				F5858EA528A7908800418201 /* AddPayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,7 +361,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +391,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +417,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5858E9E28A76E6900418201 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5858E9F28A76E6900418201 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5858E9E28A76E6900418201 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F586BC3028907B4600756D6C /* Project object */;
 }
