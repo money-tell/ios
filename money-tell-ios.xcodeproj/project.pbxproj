@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F51D3D5428AC378000C01B1A /* NavigationBarWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */; };
 		F54A271428983D2100586CE8 /* PayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A271328983D2100586CE8 /* PayRowView.swift */; };
+		F57CBA71290A5D8A003666D2 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CBA70290A5D8A003666D2 /* AuthView.swift */; };
 		F5858E9D28A6DC9800418201 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5858E9C28A6DC9800418201 /* TabBarIcon.swift */; };
 		F5858EA028A76E6900418201 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = F5858E9F28A76E6900418201 /* BottomSheet */; };
 		F5858EA228A78CE700418201 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5858EA128A78CE700418201 /* TabBarView.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapperView.swift; sourceTree = "<group>"; };
 		F54A271328983D2100586CE8 /* PayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRowView.swift; sourceTree = "<group>"; };
+		F57CBA70290A5D8A003666D2 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		F5858E9C28A6DC9800418201 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
 		F5858EA128A78CE700418201 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		F5858EA428A7908700418201 /* AddPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				F5858EA128A78CE700418201 /* TabBarView.swift */,
 				F5858EA428A7908700418201 /* AddPayView.swift */,
 				F51D3D5328AC378000C01B1A /* NavigationBarWrapperView.swift */,
+				F57CBA70290A5D8A003666D2 /* AuthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				F5858E9D28A6DC9800418201 /* TabBarIcon.swift in Sources */,
 				F5858EA228A78CE700418201 /* TabBarView.swift in Sources */,
+				F57CBA71290A5D8A003666D2 /* AuthView.swift in Sources */,
 				F586BC3E28907B4600756D6C /* ContentView.swift in Sources */,
 				F586BC3C28907B4600756D6C /* money_tell_iosApp.swift in Sources */,
 				F5FC33D8289AE45600481476 /* PagingData.swift in Sources */,

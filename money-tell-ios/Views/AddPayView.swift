@@ -12,7 +12,7 @@ import SwiftUI
 struct AddPayView: View {
     @FocusState private var nameInFocus: Bool
     @State private var isReapeted = false
-    @State var pay = Pay(title: "", price: 0, type: .expenses, createdAt: Date(), updatedAt: Date())
+    @State var pay = Pay(title: "", price: "0", type: .expenses, createdAt: Date(), updatedAt: Date())
     
     var body: some View {
         VStack {
@@ -76,7 +76,7 @@ struct AddPayView: View {
                 HStack {
                     Text("Repeat")
                     Spacer()
-                    Picker("Reapet", selection: $pay.repeateType) {
+                    Picker("Reapet", selection: $pay.repeatType) {
                         ForEach(RepeatPayType.allCases, id: \.hashValue) { value in
                             Text(value.localizedName).tag(value)
                         }

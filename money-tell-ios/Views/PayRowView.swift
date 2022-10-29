@@ -38,6 +38,6 @@ struct PayRowView: View {
 
 struct PayRowView_Previews: PreviewProvider {
     static var previews: some View {
-        PayRowView(pay: Pay(title: "Apple One", price: 100, type: .expenses, createdAt: Date(), updatedAt: Date()))
+        PayRowView(pay: Pay(title: "Apple One", price: "100", type: .expenses, createdAt: Date(), updatedAt: Date()))
     }
 }

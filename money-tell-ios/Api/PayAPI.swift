@@ -29,7 +29,7 @@ enum PaySign {
     case income, expenses
 }
 
-enum RepeatPayType: String, Equatable, CaseIterable {
+enum RepeatPayType: String, Equatable, CaseIterable, Hashable {
     case none = "Not"
     case вaily = "Daily"
     case weekly = "Weekly"
@@ -49,13 +49,13 @@ class PayAPI {
             Pays(
                 date: Date(),
                 items: [
-                    Pay(title: "Apple One", price: 100, type: .expenses),
-                    Pay(title: "Youtube Premium", price: 10, type: .expenses),
-                    Pay(title: "Apple One", price: 100, type: .expenses),
-                    Pay(title: "Youtube Premium", price: 10, type: .expenses),
-                    Pay(title: "Apple One", price: 100, type: .expenses),
-                    Pay(title: "Зарплата", price: 10, type: .income),
-                    Pay(title: "Youtube Premium", price: 10, type: .expenses),
+                    Pay(title: "Apple One", price: "100", type: .expenses),
+                    Pay(title: "Youtube Premium", price: "10", type: .expenses),
+                    Pay(title: "Apple One", price: "100", type: .expenses),
+                    Pay(title: "Youtube Premium", price: "10", type: .expenses),
+                    Pay(title: "Apple One", price: "100", type: .expenses),
+                    Pay(title: "Зарплата", price: "10", type: .income),
+                    Pay(title: "Youtube Premium", price: "10", type: .expenses),
                     
                 ]),
         ]
